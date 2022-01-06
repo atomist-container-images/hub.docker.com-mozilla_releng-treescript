@@ -1,0 +1,7 @@
+# Tags: production-20220105152630-20119e0ba6c7d1ddcae4e772fe72e6ba4ad3dfce, production, production-20220105143436-20119e0ba6c7d1ddcae4e772fe72e6ba4ad3dfce, dev-20211220200630-b1c1fe528a0c39eeb7f44219fffa74bd9ee75501, dev, dev-20211214120849-8ee01aaff049761a0edb199f1d01d1dd61a62363
+FROM mozilla/releng-treescript:production-20220105152630-20119e0ba6c7d1ddcae4e772fe72e6ba4ad3dfce
+FROM mozilla/releng-treescript:production
+FROM mozilla/releng-treescript:production-20220105143436-20119e0ba6c7d1ddcae4e772fe72e6ba4ad3dfce
+FROM mozilla/releng-treescript:dev-20211220200630-b1c1fe528a0c39eeb7f44219fffa74bd9ee75501
+FROM mozilla/releng-treescript:dev
+FROM mozilla/releng-treescript:dev-20211214120849-8ee01aaff049761a0edb199f1d01d1dd61a62363
